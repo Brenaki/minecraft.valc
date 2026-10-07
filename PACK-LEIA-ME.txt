@@ -1,0 +1,46 @@
+VALC SURVIVAL — PACOTE JAVA 26.3
+
+Requisito: Minecraft Java 26.3 com NeoForge 26.3.0.51-beta instalado.
+Este ZIP não instala Minecraft nem o NeoForge. Não use os mods com Fabric,
+Forge ou outra versão do Minecraft. O pacote é opcional e só serve para Java.
+
+COMO INSTALAR
+1. No launcher, prepare um perfil Minecraft 26.3 com NeoForge 26.3.0.51-beta.
+   Abra esse perfil uma vez e feche o jogo antes de copiar os arquivos.
+2. Abra a pasta do jogo desse perfil no launcher. No MultiMC/Prism, use a opção
+   de abrir a pasta Minecraft da instância. Use a .minecraft em que você joga.
+   No launcher padrão, normalmente fica em:
+   Windows: %APPDATA%\.minecraft
+   Linux: ~/.minecraft
+   macOS: ~/Library/Application Support/minecraft
+   Um perfil com diretório personalizado usa a pasta definida nesse perfil.
+3. Faça uma cópia de segurança de mods, config, resourcepacks, shaderpacks,
+   options.txt e servers.dat que já existirem. O pacote substitui preferências,
+   controles e lista de servidores. Use uma instância separada se tiver outros
+   mods; não misture versões diferentes do mesmo mod.
+4. Descompacte valc-26.3-neoforge.zip em uma pasta temporária.
+5. Copie o CONTEÚDO descompactado para dentro da .minecraft escolhida:
+   mods/, config/, resourcepacks/, shaderpacks/, options.txt e servers.dat.
+   Mescle as pastas e substitua os arquivos correspondentes quando solicitado.
+   O resultado deve ser .minecraft/mods/*.jar, não .minecraft/valc-26.3/mods.
+   LEIA-ME.txt e manifest.json são documentação; não precisam ser copiados.
+   Não descompacte os ZIPs dentro de resourcepacks e shaderpacks.
+6. Abra o perfil NeoForge. Fresh Animations e Complementary Reimagined já
+   estão selecionados. Confira em Pacotes de recursos e na seleção de shaders
+   do Iris (tecla I na configuração incluída). Se ficar pesado, desative o
+   shader pela tecla K ou pelo menu do Iris e reduza a distância de renderização.
+7. Abra Multijogador e selecione VALC. Endereço: minecraft.valc.cc:25565.
+   É necessário convite. Primeiro acesso: /ativar <codigo> <senha> <confirmacao>.
+   Nos próximos acessos: /login <senha>. Não compartilhe sua senha no chat.
+
+CONTEÚDO
+Mods: Iris 1.11.7, Sodium 0.9.2, Sodium Extra 0.9.4,
+Entity Model Features 3.3.11, Entity Texture Features 7.2.5,
+AppleSkin 3.0.10 e Mouse Tweaks 2.31 (todos para NeoForge / Minecraft 26.3).
+Resource pack: Fresh Animations 1.10.5.
+Shader: Complementary Reimagined r5.9.3.
+Configurações de cliente, options.txt e servers.dat com somente o servidor VALC.
+
+O pacote foi copiado da instância do administrador. Não contém saves, logs,
+screenshots, histórico de comandos, contas nem a identificação local do Sodium.
+manifest.json registra tamanho e SHA-256 de cada arquivo do pacote.
